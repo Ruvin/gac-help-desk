@@ -2,9 +2,9 @@
 
 
 
- <b-container class="bv-homa-page">
+ <b-container class="bv-homa-page mt-4">
  <h1>Add Lead Passenger </h1>
- <h6> Lead Passenger Details </h6>
+ <h2> Lead Passenger Details </h2>
 
     <div>
 
@@ -137,10 +137,10 @@ class="mb-2">
 <b-row>
 
 <b-col>
-   <h6>Driver Details </h6>
+   <h2>Driver Details </h2>
   <b-card>
 <b-row>
-<b-col>
+<b-col md="4" sm="12">
    <b-form-group id="input-group-11" label-for="input-11">
         <b-form-input
           id="input-11"
@@ -151,7 +151,7 @@ class="mb-2">
       </b-form-group>
 </b-col>
 
-<b-col>
+<b-col md="4" sm="12">
          <b-form-group id="input-group-12" label-for="input-12">
         <b-form-input
           id="input-12"
@@ -162,7 +162,7 @@ class="mb-2">
       </b-form-group>
 </b-col>
 
-<b-col>
+<b-col md="4" sm="12">
          <b-form-group id="input-group-13" label-for="input-13">
         <b-form-input
           id="input-13"
@@ -175,11 +175,9 @@ class="mb-2">
 </b-row>
 
 
- <b-row class="text-center" align-v="center">
-    <b-col></b-col>
-    <b-col></b-col>
-    <b-col><b-button class="main-navigation-button" variant="danger" type="reset">Reset</b-button> 
-    <b-button class="main-navigation-button" variant="primary" type="submit">Save Lead Passenger</b-button></b-col>
+ <b-row class="text-center" align-h="end">
+    <b-col col md="12" sm="12" style="text-align: right"><b-button class="main-navigation-button" variant="danger" type="reset">Reset</b-button> 
+    <b-button class="main-navigation-button" variant="success" type="submit">Save Lead Passenger</b-button></b-col>
   </b-row>
  
   

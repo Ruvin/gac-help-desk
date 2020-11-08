@@ -1,0 +1,43 @@
+body{
+    background-color: #FFFFFF !important;
+    font-family: 'PT Sans', sans-serif;
+    color: #70c5bc;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 900;
+  color:#70c5bc;
+  text-transform:uppercase;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+  margin: 22px 0 22px 0; 
+}
+
+p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-section{
+    height: 70px;
+    width: 100% !important;
+    background-color: #70c5bc;
+}
+.footer-section{
+    height: 70px;
+    width: 100% !important;
+    background-color: #70c5bc;
+    text-align: center;
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px){
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 1400px;
+    }
+}
