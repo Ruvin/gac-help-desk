@@ -20,7 +20,7 @@
 
   <b-button variant="primary" disabled>
     <b-spinner small type="grow"></b-spinner>
-    Loading...
+    Please wait...
   </b-button>
 </div>
 
