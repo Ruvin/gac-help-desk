@@ -181,7 +181,7 @@
           <li v-for="errorItem in errors" :key="errorItem">{{errorItem}}</li>
         </ul>
       </p>
-      <p v-else-if="status">Saved Successfully</p>
+      <p v-else-if="status">Saved Successfully. Lead Passenger ID : {{ leadPassengerId }}</p>
       <p v-else>Something went wrong</p>
     </b-modal>
   </b-container>
@@ -196,6 +196,7 @@ export default {
       responseMessage: "",
       status: false,
       errors: [],
+      leadPassengerId: "",
       form: {
         title: "",
         firstName: "",
@@ -292,6 +293,7 @@ export default {
           console.log("response.status == 'ok' => ", response.status);
           if (response.status == 200) {
             t.status = true;
+            t.leadPassengerId = JSON.stringify(response.data.data.leadPassengerID)
             t.resetForm();
             t.$bvModal.show("responseModal");
           }
@@ -322,9 +324,7 @@ export default {
       this.form.driverMobileNo = "";
       this.form.dateOfBirth = "";
 
-      //  this.form.title = null
-      //   this.form.checked = []
-      // Trick to reset/clear native browser form validation state
+      
       this.show = false;
       this.$nextTick(() => {
         this.show = true;
