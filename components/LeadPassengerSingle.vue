@@ -219,7 +219,7 @@ import axios from 'axios'
         titles: [{ text: 'Select Title', value: null },
          'Mr', 'Mrs.', 'Ms.', 'Dr.','Mstr.','Miss','Mx.','Prof.','Rev.','Sir','Sister'],
         show: true,
-           loading: true
+           loading: false
       }
     },
 
