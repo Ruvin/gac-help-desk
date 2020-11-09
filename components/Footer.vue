@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p>Website by 4 Musketeers Srilanka.</p>
+          <p>Developed by 4 Musketeers Srilanka.</p>
         </div>
       </div>
     </div>
