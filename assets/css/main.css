@@ -41,3 +41,12 @@ p{
         max-width: 1400px;
     }
 }
+
+
+.error-msg{
+    color:#dc3545; 
+}
+
+.modal-body p ul{
+    color: #dc3545;
+}

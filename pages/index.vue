@@ -3,17 +3,9 @@
  <b-container class="bv-homa-page">
    <b-row>
     <b-col col md="6" class="form-lead-passenger-add"> <LeadPassengerSingle /></b-col>
-   
-  </b-row>
-<!-- 
-  <b-row>
-    <b-col>    <LeadPassengerList /></b-col>   
-  </b-row> -->
-
-
+     </b-row>
 </b-container>
 </section>
-
 </template>
 
 <script>

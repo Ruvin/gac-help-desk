@@ -9,7 +9,7 @@
             alt="GAC"
           />
         </a>
-        <p class="version-header">Version 1.0</p>
+        <p class="version-header">Version v2.0</p>
       </div>
     </div>
   </header>

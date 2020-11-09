@@ -22,6 +22,9 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+   "~/plugins/vee-validate.js"
+ //   {src: '~plugins/vee-validate.js', ssr: true}
+    
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -33,6 +36,9 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    // Doc: https://http.nuxtjs.org
+    //"@nuxt/http",
+
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
@@ -53,11 +59,10 @@ export default {
   axios: {
     
   },
-
-
   
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    dir: 'disc'
+    dir: 'dist',
+   transpile: ["vee-validate/dist/rules"],
   }
 }
